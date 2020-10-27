@@ -1,0 +1,11 @@
+commands:
+  - xmlrpc:
+    class: XMLRPCCommand
+    options:
+      - url:
+          type: string,
+          description: 'The url to test'
+      - path:
+          alias: p
+          type: string
+          description: 'The path to the xmlrpc.php file from the url'
